@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header style="background-image: url('images/pasunset.jpg'); background-size: cover; background-repeat: no-repeat;">
+            <div class="container">
+                <div>
+                </div>
+                <div class="strokeme">
+                    <h1>Contact Us</h1>
+                </div>
+                <div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="harrisburg.html">Harrisburg</a></li>
+                    <li><a href="pittsburgh.html">Pittsburgh</a></li>
+                    <li><a href="philadelphia.html">Philadelphia</a></li>
+                    <li><a href="butler.html">Butler</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="othersection">
+            <p><h2>Want to connect with us? Fill out some information<br />below and we'll get back to you!</h2></p>
+            <form id="contact">
+                <label id="labels" for="fName">First Name:</label><br />
+                <input type="text" id="fName" name="fName" placeholder="Enter First Name" required>
+                <br /><br />
+                <label id="labels" for="lName">Last Name:</label><br />
+                <input type="text" id="lName" name="lName" placeholder="Enter Last Name" required>
+                <br /><br />
+                <label id="labels" for="email">Email Address:</label><br />
+                <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+                <br /><br />
+                <label id="labels" for="confirm">Confirm Email:</label><br />
+                <input type="email" id="confirm" name="confirm" placeholder="Confirm Your Email Address" required>
+                <br />
+                <label id="confirmation" style="display: none; color: green;">Emails match!!</label>
+                <br />
+                <label id="labels" for="commentorquestion">Comment/Question:</label><br />
+                <textarea id="commentorquestion" name="commentorquestion" placeholder="Type your comment/question here"></textarea>
+                <br /><br />
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </section>
+
+        <aside class="otheraside">
+            <h3>
+                Looking for more information on our great state? Head on over to Pennsylvania's official travel
+                website (<a href="https://www.visitpa.com/" target="_blank" rel="noreferrer noopener">VisitPA.com</a>), where you can learn about more places to visit, and schedule an awesome trip filled
+                with fun and memories!
+            </h3>
+        </aside>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
